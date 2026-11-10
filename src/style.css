@@ -6,3 +6,5 @@
 @media print{.header,.cart-footer,.row-actions,.promotion-status,.checkout,.cart-controls,.search{display:none}.layout{display:block}.summary{box-shadow:none}aside{break-inside:avoid}dialog,.toast{display:none}}
 
 .modal-product{grid-template-columns:48px minmax(0,1fr) 70px 106px}.modal-product>.outline{width:97px;padding:10px 12px}@media(max-width:600px){.modal-product{grid-template-columns:35px minmax(0,1fr) 45px 85px}.modal-product>.outline{width:85px;padding:8px}}
+
+.gift-row>.icon-button{display:inline-flex}@media(max-width:1249px){.gift-row{position:relative;padding-right:44px}.gift-row>.icon-button{position:absolute;right:12px;bottom:18px}}
